@@ -1,0 +1,233 @@
+
+.header{
+    display: flex;
+    background-color: cornflowerblue;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-cSZMZ-Y.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  
+.sicon{
+display: flex;
+justify-content: space-around;
+width: 400px;
+margin-top: 12px;
+
+}
+.sicon img{
+    padding: 0px;
+}
+.text{
+    
+    color: white;
+    width: 600px;
+   margin-top: 15px;
+}
+.btn {
+   margin-top: 15px;
+    
+
+    
+}
+.text p{
+    color: white;
+    font-size: px;
+    text-align: center;
+}
+.menu{
+  flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    background: 	#fefefe;
+}
+.logo{
+    width:40%;
+    display: flex;
+}
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
+   .logo img{
+       display: flex;
+       margin-top: 8px;
+       margin-left: 70px;
+       width: 280px;
+       height: 60px;
+       
+   }
+   #main-nav{
+       width:  100%;
+       margin-left: 60px;
+      
+       z-index: 1;
+       
+    margin-top: 10px;
+      }
+      #main-nav a{
+          color: black;
+          background: none;
+          display: block;
+          height: 40px;
+          font-family: 'Merriweather';
+          /* font-weight: bold; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          /* transition: background 0.9s; */
+      }
+      #main-nav a:hover{
+          background:blue;
+          border-radius:10px ;
+      }
+      #main-nav ul{
+          list-style: none;
+          display: flex;
+          width: 700px;
+          text-align: left;
+      }
+      #main-nav li{
+          width: 150px;
+          /* text-align: left; */
+          position: relative;
+          background: white;
+
+      }
+      #main-nav li:hover .submenu > li{
+          display: block;
+          top:  0px;
+
+      }
+      .submenu li{
+          display: none;
+          position: absolute;
+          top: 0px;
+
+      }
+      .submenu{
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          width: 100%;
+      }
+      .submenu li{
+          position: relative;
+      }
+      .submenu li:hover .submenu-2 li{
+          display: block;
+      }
+      .submenu-2 li {
+          display: none;
+      }
+      .submenu-2{
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 0px;
+          left: 100px;
+          width: 120px;
+      }
+      .arrow{
+          margin-left: 8px;
+          color: #eee;
+          font-size: 12px;
+      }
+      .marquee{
+          height: 30px;
+          background: lightblue;
+          padding: 5px;
+         width: 70%;
+         margin-left: 200px;
+
+      }
+     
+      .intro p{
+        font-family: 'Merriweather';
+        color: black;
+        
+      }
+      .intro{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      .col-sm-12 p{
+          color: darkgrey;
+          text-align: justify;
+          padding-left: 150px;
+          padding-right: 150px;
+          font-size: 20px;
+          font-family: Marriweather;
+          
+
+      }
+      .col-sm-3{
+          padding-top: 30px;
+      }
+      .line-bottom {
+
+        font-family: Marriweather;
+      }
+      .box-shadow11{
+          box-shadow: 0px 8px 20px 0px lightgray;
+          padding: 30px;
+          margin: 10px;
+          margin-bottom: 30px;
+      }
+      .bg-silver-light{
+          background-color: #f7f8fa;
+      }
+      .upevent{
+          /* padding : 10px;
+          margin-right: 15px; */
+        
+        
+          
+
+      }
+      .border-bottom {
+        border-bottom: 1px solid #eeeeee;
+        font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DC3;
+      }
+      .gallery_product img:hover {
+          opacity: 1px;
+
+        
+      }
+      footer {
+          background:  #444;
+          padding: 50px;
+      }
+      .smed i{
+          color: blue ;
+          font-size:  40px;
+          margin: 10px;
+          padding-top: 20px;
+      }
+
+      h4,h3,p{
+          font-family: Marriweather;
+      }
+      .footer-bottom{
+          background: cornflowerblue;
+          font-family: Marriweather;
+          color: #fff;
+          height: 40px;
+          padding: 10px;
+          padding-left: 50px;
+      }
+   i{
+       color: lightgreen;
+      
+   }
